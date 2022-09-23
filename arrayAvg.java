@@ -4,8 +4,8 @@ public class arrayAvg {
         double avg = 0;
         for(int i = 0; i < x.length; i++) {
             sum += x[i];
-            avg = sum/x.length;
         }
+        avg = sum/x.length;
         return avg;
     }
 }
