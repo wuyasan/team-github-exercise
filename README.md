@@ -26,3 +26,10 @@ is used to find the average of all elements. Then, each element's deviation from
 and added. Finally, dividing this sum of squared differences with the number of elements gives us the variance. To 
 make use of this feature, run 'arrayMain.java', where you will be asked to enter the size and the contents for an array.
 Then, the method 'getVar()' is called to reverse this array and the output is printed to the console.
+
+### Feature 4 - Sorting the array elements
+
+This feature sorts the array in ascending or descending order depending upon the method chosen from the class ```arraySort```.
+```getSortAsc()``` sorts the array in ascending order using ```Arrays.sort()```.
+```getSortDesc()``` sorts the array in descending order using ```Arrays.sort()``` and then reversing that using ```getRev()``` from the ```arrayRev``` class.
+Make use of this feature by running ```arrayMain.java```, where you will be asked to enter the size and the contents for an array.
