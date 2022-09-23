@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class arrayMain {
     public static void main(String[] args) {
@@ -14,6 +15,8 @@ public class arrayMain {
         System.out.println();
         System.out.println("The average is: " + arrayAvg.getAvg(y));
         System.out.println("The variance is: " + arrayVar.getVar(y));
+        System.out.println("Original Array: " + Arrays.toString(y));
+        System.out.println("Reversed Array: " + Arrays.toString(arrayRev.getRev(y)));
         // additional methods to be created by team
         in.close();
     }
