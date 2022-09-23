@@ -17,7 +17,7 @@ public class arrayMain {
         System.out.println("The variance is: " + arrayVar.getVar(y));
         System.out.println("Original Array: " + Arrays.toString(y));
         System.out.println("Reversed Array: " + Arrays.toString(arrayRev.getRev(y)));
-        // additional methods to be created by team
+        System.out.println("Sorted Asc Array: " + Arrays.toString(arraySort.getSortAsc(y)));
         in.close();
     }
 }
