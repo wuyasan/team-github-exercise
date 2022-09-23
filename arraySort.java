@@ -6,4 +6,11 @@ public class arraySort {
         Arrays.sort(x);
         return x;
     }
+
+    // Sort Descending
+    public static int[] getSortDesc(int[] x) {
+        Arrays.sort(x);
+        x = arrayRev.getRev(x);
+        return x;
+    }
 }

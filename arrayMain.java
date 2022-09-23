@@ -18,6 +18,7 @@ public class arrayMain {
         System.out.println("Original Array: " + Arrays.toString(y));
         System.out.println("Reversed Array: " + Arrays.toString(arrayRev.getRev(y)));
         System.out.println("Sorted Asc Array: " + Arrays.toString(arraySort.getSortAsc(y)));
+        System.out.println("Sorted Desc Array: " + Arrays.toString(arraySort.getSortDesc(y)));
         in.close();
     }
 }
